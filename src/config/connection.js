@@ -1,11 +1,11 @@
 const { Pool } = require("pg");
 
 const db = new Pool({
-    host: "localhost",
+    host: "autorack.proxy.rlwy.net",
     user: "postgres",
-    password: "pass",
-    port: 5432,
-    database: "healthGate",
+    password: "hkeyBaWvLdoSTsKKVmXAMDgecfLAOmCk",
+    port: 35387,
+    database: "railway",
 });
 
 module.exports = db;
